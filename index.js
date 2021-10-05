@@ -30,7 +30,7 @@ function fizzBuzz(number){
           fizzBuzzArray.push("Buzz");
       }
       else {
-          fizzBuzzArray.push(i);
+          fizzBuzzArray.push(i.toString());
       }
   }
   return fizzBuzzArray;
@@ -39,6 +39,6 @@ function fizzBuzz(number){
 
 
 // fizzBuzz();
-// console.log(fizzBuzz(3))        // returns ["1","2","Fizz"]
+//  console.log(fizzBuzz(3))        // returns ["1","2","Fizz"]
 // console.log(fizzBuzz(5))        // returns ["1","2","Fizz","4","Buzz"]
 // console.log(fizzBuzz(15))       // returns ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
